@@ -5,6 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link de Redirecionamento</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        :root {
+    --bg: #191919;
+    --bg2: #fff;
+    --font1: "montserrat";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .3s;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #162938;
+}
+
+span {
+    font-family: "poppins";
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+header {
+    padding: 0 20px;
+    display: flex;
+    width:700px;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2.3em;
+    font-family: "montserrat";
+    margin-bottom: 1em;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: solid 2px #fff;
+}
+
+.links a {
+    color: #fff;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 15px;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    align-items: center;
+}
+
+.links a i {
+    font-size: 2.3em;
+
+}
+
+.links a span {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.links a:hover {
+    border: 2px solid #fff;
+    background: #fff;
+    color: #162938;
+
+}
+
+.githubbtn {
+    color: #fff;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.githubbtn:hover {
+    background: #fff;
+    color: #162938;
+}
+
+.githubbtn i {
+    margin-bottom: 10px;
+    font-size: 3em;
+
+}
+
+.githubbtn span {
+    letter-spacing: 2px;
+}
+
+@media(max-width:769px) {
+    body {
+        width: 100dvw;
+        height: 100dvh;
+    }
+
+    header {
+        width: 100dvw;
+    }
+
+    header h1 {
+        color: #fff;
+        font-size: 1.4em;
+    }
+}
+    </style>
+
+    
     </head>
 <body>
     <header>
@@ -25,4 +160,5 @@
     </script>
 </body>
 </html>
+
 
